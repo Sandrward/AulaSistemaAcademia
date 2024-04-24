@@ -43,8 +43,6 @@ public class TelaLogin extends javax.swing.JFrame {
 
         ButtonSair.setText("Sair");
 
-        CampoSenha.setText("jTextField2");
-
         LoginLabel.setText("Login:");
 
         LabelSenha.setText("Senha:");
@@ -54,7 +52,7 @@ public class TelaLogin extends javax.swing.JFrame {
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(0, 142, Short.MAX_VALUE)
+                .addGap(0, 238, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                         .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 586, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -96,7 +94,7 @@ public class TelaLogin extends javax.swing.JFrame {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(ButtonSair)
                     .addComponent(ButtonEntrar))
-                .addContainerGap(64, Short.MAX_VALUE))
+                .addContainerGap(142, Short.MAX_VALUE))
         );
 
         pack();
