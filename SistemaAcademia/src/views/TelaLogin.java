@@ -43,8 +43,6 @@ public class TelaLogin extends javax.swing.JFrame {
 
         ButtonSair.setText("Sair");
 
-        CampoLogin.setText("jTextField1");
-
         CampoSenha.setText("jTextField2");
 
         LoginLabel.setText("Login:");
